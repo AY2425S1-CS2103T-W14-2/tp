@@ -392,9 +392,9 @@ with(this){return _c('ol',[_c('li',[_c('strong',[_v("Export contact list to a fi
 with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#saving-data","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("Dealing with missing/corrupted data files\n2. "),_c('strong',[_v("Prerequisites:")]),_v(" BA€ is not running\n3. "),_c('strong',[_v("Test case:")]),_v(" "),_c('ol',[_c('li',[_v("To simulate a corrupted file, navigate to the data folder, and find addressbook.json")]),_v(" "),_c('li',[_v("Delete addressbook.json")]),_v(" "),_c('li',[_v("Launch BA€.")]),_v(" "),_c('li',[_c('strong',[_v("Expected:")]),_v(" A new addressbook.json file will be created and it will be empty.")])])])])}
+with(this){return _c('ol',[_c('li',[_c('strong',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('strong',[_v("Prerequisites:")]),_v(" BA€ is not running")]),_v(" "),_c('li',[_c('strong',[_v("Test case:")]),_v(" "),_c('ol',[_c('li',[_v("To simulate a corrupted file, navigate to the data folder, and find addressbook.json")]),_v(" "),_c('li',[_v("Delete addressbook.json")]),_v(" "),_c('li',[_v("Launch BA€.")])])]),_v(" "),_c('li',[_c('strong',[_v("Expected:")]),_v(" A new addressbook.json file will be created and it will be empty.")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 7 Nov 2024, 21:06:59 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 7 Nov 2024, 21:16:50 GMT+8]")])])])}
 }];
   
