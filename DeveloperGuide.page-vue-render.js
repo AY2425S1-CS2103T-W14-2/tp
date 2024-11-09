@@ -386,7 +386,7 @@ with(this){return _c('ol',[_c('li',[_c('p',[_c('strong',[_v("Sort contacts by ta
 with(this){return _c('h3',{attrs:{"id":"exporting-contacts"}},[_v("Exporting contacts"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#exporting-contacts","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('strong',[_v("Export contact list to a file")]),_v(" "),_c('ol',[_c('li',[_c('strong',[_v("Prerequisites:")]),_v(" Have a list of contacts available to export.")]),_v(" "),_c('li',[_c('strong',[_v("Test case:")]),_v(" Run the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("export")]),_v(" command")]),_v(" "),_c('li',[_c('strong',[_v("Expected:")]),_v(" Contacts are exported to a file in CSV format. Verify that all contact details are present in the file.")])])])])}
+with(this){return _c('ol',[_c('li',[_c('strong',[_v("Export contact list to a file")]),_v(" "),_c('ol',[_c('li',[_c('strong',[_v("Prerequisites:")]),_v(" Have a list of contacts available to export.")]),_v(" "),_c('li',[_c('strong',[_v("Test case:")]),_v(" Run the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("export format\\csv")]),_v(" command")]),_v(" "),_c('li',[_c('strong',[_v("Expected:")]),_v(" Contacts are exported to a file in CSV format. Verify that all contact details are present in the file.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#saving-data","onclick":"event.stopPropagation()"}})])}
@@ -395,6 +395,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('strong',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('strong',[_v("Prerequisites:")]),_v(" BA€ is not running")]),_v(" "),_c('li',[_c('strong',[_v("Test case:")]),_v(" "),_c('ol',[_c('li',[_v("To simulate a corrupted file, navigate to the data folder, and find addressbook.json")]),_v(" "),_c('li',[_v("Delete addressbook.json")]),_v(" "),_c('li',[_v("Launch BA€.")])])]),_v(" "),_c('li',[_c('strong',[_v("Expected:")]),_v(" A new addressbook.json file will be created and it will be empty.")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 7 Nov 2024, 23:49:52 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sat, 9 Nov 2024, 23:25:35 GMT+8]")])])])}
 }];
   
