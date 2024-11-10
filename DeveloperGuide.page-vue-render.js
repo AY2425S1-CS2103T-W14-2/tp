@@ -143,13 +143,13 @@ with(this){return _c('p',[_v("The filter mechanism is facilitated by "),_c('code
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("FilterCommand#execute()")]),_v(" — Applies the filter criteria to the address book's contact list")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("FilterCommandParser#parse()")]),_v(" — Parses the user input into name and tag criteria")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model#updateFilteredPersonList()")]),_v(" — Updates the displayed list based on the filter predicate")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Step 2. The user executes "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("filter n/John t/friend t/client")]),_v(" command to show only contacts named \"John\" who are tagged as both \"friend\" and \"client\". The filter mechanism works as follows:")])}
+with(this){return _c('p',[_v("Step 2. The user executes "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("filter n\\John t\\friend t\\client")]),_v(" command to show only contacts named \"John\" who are tagged as both \"friend\" and \"client\". The filter mechanism works as follows:")])}
 },function anonymous(
 ) {
 with(this){return _c('ol',[_c('li',[_c('p',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("FilterCommandParser")]),_v(" tokenizes the input and extracts:")]),_v(" "),_c('ul',[_c('li',[_v("Names: [\"John\"]")]),_v(" "),_c('li',[_v("Tags: [\"friend\", \"client\"]")])])]),_v(" "),_c('li',[_c('p',[_v("A new "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("FilterCommand")]),_v(" is created with these criteria.")])]),_v(" "),_c('li',[_c('p',[_v("The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("execute()")]),_v(" method creates a predicate that:")]),_v(" "),_c('ul',[_c('li',[_v("Checks if the contact's name contains \"John\" (case-insensitive)")]),_v(" "),_c('li',[_v("Verifies the contact has both the \"friend\" and \"client\" tags")]),_v(" "),_c('li',[_v("Only displays contacts meeting all criteria")])])]),_v(" "),_c('li',[_c('p',[_v("The filtered list is updated through "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model#updateFilteredPersonList()")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Step 3. The user executes "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("filter t/work")]),_v(" to show only work contacts. This creates a new filter that:")])}
+with(this){return _c('p',[_v("Step 3. The user executes "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("filter t\\work")]),_v(" to show only work contacts. This creates a new filter that:")])}
 },function anonymous(
 ) {
 with(this){return _c('ul',[_c('li',[_v("Clears the previous name filter")]),_v(" "),_c('li',[_v("Shows only contacts tagged as \"work\"")])])}
@@ -386,7 +386,7 @@ with(this){return _c('ol',[_c('li',[_c('p',[_c('strong',[_v("Sort contacts by ta
 with(this){return _c('h3',{attrs:{"id":"exporting-contacts"}},[_v("Exporting contacts"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#exporting-contacts","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('strong',[_v("Export contact list to a file")]),_v(" "),_c('ol',[_c('li',[_c('strong',[_v("Prerequisites:")]),_v(" Have a list of contacts available to export.")]),_v(" "),_c('li',[_c('strong',[_v("Test case:")]),_v(" Run the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("export")]),_v(" command")]),_v(" "),_c('li',[_c('strong',[_v("Expected:")]),_v(" Contacts are exported to a file in CSV format. Verify that all contact details are present in the file.")])])])])}
+with(this){return _c('ol',[_c('li',[_c('strong',[_v("Export contact list to a file")]),_v(" "),_c('ol',[_c('li',[_c('strong',[_v("Prerequisites:")]),_v(" Have a list of contacts available to export.")]),_v(" "),_c('li',[_c('strong',[_v("Test case:")]),_v(" Run the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("export format\\csv")]),_v(" command")]),_v(" "),_c('li',[_c('strong',[_v("Expected:")]),_v(" Contacts are exported to a file in CSV format. Verify that all contact details are present in the file.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#saving-data","onclick":"event.stopPropagation()"}})])}
@@ -395,6 +395,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('strong',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('strong',[_v("Prerequisites:")]),_v(" BA€ is not running")]),_v(" "),_c('li',[_c('strong',[_v("Test case:")]),_v(" "),_c('ol',[_c('li',[_v("To simulate a corrupted file, navigate to the data folder, and find addressbook.json")]),_v(" "),_c('li',[_v("Delete addressbook.json")]),_v(" "),_c('li',[_v("Launch BA€.")])])]),_v(" "),_c('li',[_c('strong',[_v("Expected:")]),_v(" A new addressbook.json file will be created and it will be empty.")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sat, 9 Nov 2024, 23:25:56 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sun, 10 Nov 2024, 11:12:17 GMT+8]")])])])}
 }];
   
