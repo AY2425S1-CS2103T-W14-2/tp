@@ -395,6 +395,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_c('strong',[_v("Dealing with missing/corrupted data files")])]),_v(" "),_c('ol',[_c('li',[_c('p',[_c('strong',[_v("Prerequisites:")]),_v(" BA€ is not running")])]),_v(" "),_c('li',[_c('p',[_c('strong',[_v("Test case:")])]),_v(" "),_c('ol',[_c('li',[_c('p',[_v("To simulate a corrupted file, navigate to the data folder, and find bae_addressbook.json")])]),_v(" "),_c('li',[_c('p',[_v("Delete bae_addressbook.json")])]),_v(" "),_c('li',[_c('p',[_v("Launch BA€.")])])])]),_v(" "),_c('li',[_c('p',[_c('strong',[_v("Expected:")]),_v(" A new addressbook.json file will be created and it will be empty.")])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sun, 10 Nov 2024, 14:56:48 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sun, 10 Nov 2024, 15:08:01 GMT+8]")])])])}
 }];
   
